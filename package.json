@@ -3,7 +3,7 @@
   "description": "Lightweight location-based querying and encoding of Firebase Firestore Documents for geofirestore.",
   "version": "4.1.0",
   "scripts": {
-    "build": "rm -rf ./dist && rollup -c",
+    "build": "rimraf ./dist && rollup -c",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "docs": "typedoc --out docs/ src/",
     "lint": "gts check",
@@ -72,6 +72,7 @@
     "mocha": "^7.2.0",
     "nyc": "^15.1.0",
     "protobufjs": "github:michaelsolati/protobuf.js",
+    "rimraf": "*",
     "rollup": "^2.14.0",
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.1",
