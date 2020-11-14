@@ -52,6 +52,11 @@
   "dependencies": {
     "geokit": "^1.1.0"
   },
+  "optionalDependencies": {
+    "@google-cloud/firestore": ">= 2.0.0",
+    "@types/node": ">= 12.0.0",
+    "firebase": ">= 8.0.0"
+  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^8.0.1",
     "@types/chai": "^4.2.11",
